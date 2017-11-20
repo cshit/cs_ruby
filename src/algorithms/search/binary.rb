@@ -1,4 +1,4 @@
-def bSearch(targetArray, targetNumber, begIdx, endIdx)
+def b_search(targetArray, targetNumber, begIdx, endIdx)
 
   return false if endIdx < begIdx
 
@@ -7,8 +7,8 @@ def bSearch(targetArray, targetNumber, begIdx, endIdx)
   if(targetArray[mid] == targetNumber)
     return mid
   elsif(targetArray[mid] > targetNumber)
-    bSearch(targetArray, targetNumber, begIdx, mid - 1)
+    b_search(targetArray, targetNumber, begIdx, mid - 1)
   else
-    bSearch(targetArray, targetNumber, mid + 1, endIdx)
+    b_search(targetArray, targetNumber, mid + 1, endIdx)
   end
 end
