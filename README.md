@@ -7,16 +7,20 @@
         - __linked_list__
       - __recursion__
         - [factorial.rb](spec/algorithms/recursion/factorial.rb)
+        - [palindrome_spec.rb](spec/algorithms/recursion/palindrome_spec.rb)
+        - [power_spec.rb](spec/algorithms/recursion/power_spec.rb)
       - __search__
         - [binary_iteratively_spec.rb](spec/algorithms/search/binary_iteratively_spec.rb)
         - [binary_spec.rb](spec/algorithms/search/binary_spec.rb)
       - __sorting__
         - [insertion_spec.rb](spec/algorithms/sorting/insertion_spec.rb)
+        - [merge_spec.rb](spec/algorithms/sorting/merge_spec.rb)
         - [selection_spec.rb](spec/algorithms/sorting/selection_spec.rb)
     - __ds__
       - __array__
         - [find_lowest_element_index_spec.rb](spec/ds/array/find_lowest_element_index_spec.rb)
         - [insert_spec.rb](spec/ds/array/insert_spec.rb)
+        - [merge_spec.rb](spec/ds/array/merge_spec.rb)
         - [swap_spec.rb](spec/ds/array/swap_spec.rb)
       - __linked_list__
         - [singly_linked_list_spec.rb](spec/ds/linked_list/singly_linked_list_spec.rb)
@@ -25,16 +29,20 @@
     - __algorithms__
       - __recursion__
         - [factorial.rb](src/algorithms/recursion/factorial.rb)
+        - [palindrome.rb](src/algorithms/recursion/palindrome.rb)
+        - [power.rb](src/algorithms/recursion/power.rb)
       - __search__
         - [binary.rb](src/algorithms/search/binary.rb)
         - [binary_iteratively.rb](src/algorithms/search/binary_iteratively.rb)
       - __sorting__
         - [insertion.rb](src/algorithms/sorting/insertion.rb)
+        - [merge.rb](src/algorithms/sorting/merge.rb)
         - [selection.rb](src/algorithms/sorting/selection.rb)
     - __ds__
       - __array__
-        - [find_lowest_elements_index.rb](src/ds/array/find_lowest_elements_index.rb)
         - [insert.rb](src/ds/array/insert.rb)
+        - [find_lowest_elements_index.rb](src/ds/array/find_lowest_elements_index.rb)
+        - [merge.rb](src/ds/array/merge.rb)
         - [swap.rb](src/ds/array/swap.rb)
       - __linked_list__
         - [singly_linked_list.rb](src/ds/linked_list/singly_linked_list.rb)
