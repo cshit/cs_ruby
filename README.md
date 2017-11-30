@@ -26,6 +26,10 @@
         - [swap_spec.rb](spec/ds/array/swap_spec.rb)
       - __linked_list__
         - [singly_linked_list_spec.rb](spec/ds/linked_list/singly_linked_list_spec.rb)
+      - __queue__
+        - [queue_array_spec.rb](spec/ds/queue/queue_array_spec.rb)
+      - __stack__
+        - [stack_array_spec.rb](spec/ds/stack/stack_array_spec.rb)
     - [spec_helper.rb](spec/spec_helper.rb)
   - __src__
     - __algorithms__
@@ -38,8 +42,8 @@
         - [binary_iteratively.rb](src/algorithms/search/binary_iteratively.rb)
       - __sorting__
         - [insertion.rb](src/algorithms/sorting/insertion.rb)
-        - [quick.rb](src/algorithms/sorting/quick.rb)
         - [merge.rb](src/algorithms/sorting/merge.rb)
+        - [quick.rb](src/algorithms/sorting/quick.rb)
         - [selection.rb](src/algorithms/sorting/selection.rb)
     - __ds__
       - __array__
@@ -50,5 +54,9 @@
         - [swap.rb](src/ds/array/swap.rb)
       - __linked_list__
         - [singly_linked_list.rb](src/ds/linked_list/singly_linked_list.rb)
+      - __queue__
+        - [queue_array.rb](src/ds/queue/queue_array.rb)
+      - __stack__
+        - [stack_array.rb](src/ds/stack/stack_array.rb)
     - __string__
       - [anagram.rb](src/string/anagram.rb)
